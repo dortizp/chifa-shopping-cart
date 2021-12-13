@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "root",
+    "password": "manzana123456",
+    "database": "shopping-cart",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
