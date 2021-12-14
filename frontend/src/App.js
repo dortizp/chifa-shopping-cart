@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Catalog from "./components/Catalog";
 import GlobalStyle from "./components/GlobalStyle";
 import Product from "./components/Product";
 
@@ -12,7 +13,7 @@ function App() {
       <GlobalStyle />
       <div className="App">
         <p>Shopping Cart</p>
-        <Product />
+        <Catalog />
       </div>
     </>
   );

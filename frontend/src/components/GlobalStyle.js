@@ -50,6 +50,15 @@ const GlobalStyle = createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
+
+  body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  button {
+    border:none;
+  }
 `;
 
 export default GlobalStyle;
