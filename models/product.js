@@ -8,6 +8,7 @@ const Product = (sequelize, Sequelize) => {
         primaryKey: true,
       },
       name: Sequelize.STRING,
+      image: Sequelize.STRING,
       price: Sequelize.DECIMAL(10, 2),
     },
     {
